@@ -19,12 +19,12 @@ O modelo foi desenvolvido para representar de forma clara e eficiente as seguint
 
 | **Tabela**       | **Descrição**                                                                                 |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| **Clientes**      | Armazena informações dos clientes. Um cliente pode ter vários veículos e várias ordens de serviço. |
-| **Veículos**      | Contém os dados dos veículos. Cada veículo pertence a um único cliente e pode ter várias ordens de serviço. |
+| **Cliente**      | Armazena informações dos clientes. Um cliente pode ter vários veículos e várias ordens de serviço. |
+| **Veículo**      | Contém os dados dos veículos. Cada veículo pertence a um único cliente e pode ter várias ordens de serviço. |
 | **Ordens de Serviço** | Registra os serviços realizados. Cada ordem está associada a um único cliente e a um único veículo. |
-| **Peças**         | Lista as peças utilizadas em cada ordem de serviço.                                          |
-| **Serviços**      | Detalha os serviços disponíveis e permite associá-los aos mecânicos responsáveis.            |
-| **Mecânicos**     | Contém os dados dos mecânicos e os serviços realizados por eles.                             |
+| **Peça**         | Lista as peças utilizadas em cada ordem de serviço.                                          |
+| **Serviço**      | Detalha os serviços disponíveis e permite associá-los aos mecânicos responsáveis.            |
+| **Mecânico**     | Contém os dados dos mecânicos e os serviços realizados por eles.                             |
 
 ## Relacionamentos
 - Um **cliente** pode possuir **vários veículos** e realizar **várias ordens de serviço**.
