@@ -1,5 +1,3 @@
-# Projeto_Conceitual_SO_DIO
-
 # Modelo Conceitual de Sistema de Gestão de Oficinas
 
 ## Descrição Geral
