@@ -4,7 +4,7 @@ O objetivo deste projeto foi implementar un banco de dados relacional a partir d
 
 
 ## Modelagem do Banco de Dados
-O sistema de e-commerce foi modelado com as seguintes entidades e relações:
+O sistema ordem de serviço foi modelado com as seguintes entidades e relações:
 ### Tabelas Criadas:
 
 1. **Cliente**: Contém informações sobre os clientes que usam os serviços par seus veículos.
