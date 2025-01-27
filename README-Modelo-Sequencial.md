@@ -8,7 +8,7 @@ O sistema ordem de serviço foi modelado com as seguintes entidades e relações
 ### Tabelas Criadas:
 
 1. **Cliente**: Contém informações sobre os clientes que usam os serviços par seus veículos.
-2. **Ordem_Serviço**: Armazena informações sobre as ordens de serviço, incluindo dados do cliente e do veículo.
+2. **Ordem_Servico**: Armazena informações sobre as ordens de serviço, incluindo dados do cliente e do veículo.
 3. **Peca**: Contém dados sobre as peças usadas nas ordens de serviço, com vínculo com a tabela `Ordem_Serviço`.
 4. **Servico**: Armazena informações sobre os serviços realizados nas ordens de serviço, associando-se à tabela `Ordem_Serviço`.
 5. **Mecanico**: Guarda os dados dos mecânicos responsáveis pelos diferentes serviços.
