@@ -1,0 +1,26 @@
+# Modelo Relacional - Sistema de Ordens de Serviço e Peças
+
+## Descrição
+
+## Tabelas
+
+- **Cliente**  
+    Contém informações sobre os cliente
+
+- **Ordem_Serviço**  
+    Armazena informações sobre as ordens de serviço, incluindo dados do cliente e do veículo.
+
+- **Peca**  
+    Contém dados sobre as peças usadas nas ordens de serviço, com vínculo com a tabela `Ordem_Serviço`.
+
+- **Servico**  
+    Armazena informações sobre os serviços realizados nas ordens de serviço, associando-se à tabela `Ordem_Serviço`.
+
+- **Mecanico**  
+    Guarda os dados dos mecânicos responsáveis pelos serviços.
+
+- **Servico_Mecanico**  
+    Relaciona os serviços aos mecânicos responsáveis, criando uma relação N:M entre `Servico` e `Mecanico`.
+
+- **Veiculo**  
+    Armazena dados sobre os veículos dos clientes, relacionados às ordens de serviço. Cada veículo pode ter várias ordens de serviço associadas.
