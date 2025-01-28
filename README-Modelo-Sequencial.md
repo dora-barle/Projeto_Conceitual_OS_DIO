@@ -1,6 +1,6 @@
 # Modelo Relacional - Sistema de Ordens de Serviço e Peças
 ## Objetivo
-O objetivo deste projeto foi implementar un banco de dados relacional a partir de um modelo conceitual do sistema ordem de serviço. Desenvolvido no MySQL Workbench.
+O objetivo deste projeto foi implementar um banco de dados relacional a partir de um modelo conceitual do sistema ordem de serviço. Desenvolvido no MySQL Workbench.
 
 
 ## Modelagem do Banco de Dados
